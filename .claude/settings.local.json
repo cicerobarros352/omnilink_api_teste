@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./mvnw compile:*)",
+      "Bash(./mvnw test-compile:*)",
+      "Bash(./mvnw test:*)",
+      "Bash(mysql -u root -padmin123 -e \"SELECT 1;\")",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(sudo mysql:*)",
+      "Bash(curl -s http://localhost:8080/v3/api-docs)"
+    ]
+  }
+}
